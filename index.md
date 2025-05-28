@@ -9,14 +9,14 @@ country: "GB"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: 51.65713      # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: -1.23002     # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "10, 11, 18, 19, 24, 25 March 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "2, 3, 9, 10, 18, 19 June 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "13:00 - 16:30 GMT (UTC+0)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2025-03-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2025-03-25
+startdate: 2025-06-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2025-06-19
 instructor: ["Matthew Bluteau", "Kirill Palamartchouk", "Kristian Zarebski", "Matthew Field", "Harry Saunders", "Kingsley Collie"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Jez Swann", "Sanket Gadgil", "Thomas Clayton"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Sanket Gadgil"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["matthew.bluteau@ukaea.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: "https://codimd.carpentries.org/ukaea-int-rse-20250310#" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: "https://codimd.carpentries.org/ukaea-int-rsd-20250602#" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -345,7 +345,7 @@ limited.[^1]
 >    directory in your roaming profile, shared home directory, or OneDrive
 >    synchronised directory.**
 > 3. Alternatively, if you prefer PyCharm as your IDE, then you can install it
->    within WSL and launch it from there:
+>    within WSL and launch it from there (update the PyCharm version data as neeed):
 >
 >    ```bash
 >    wget https://download.jetbrains.com/python/pycharm-community-2024.1.1.tar.gz
@@ -398,12 +398,11 @@ limited.[^1]
 >    will of course require switching between between webpages, so the
 >    experience will not be as seamless. A better UX is in our long term plans.
 >
-> However, because this is an
-> intermediate-level course, we expect that a number of participants will already
-> have some experience using an IDE or comparable advanced code editor (e.g. Vim,
-> Emacs). Therefore, you are welcome to use your editor of choice for the course if you are
-> confident that you can achieve similar functionality that is described for
-> PyCharm:
+> However, because this is an intermediate-level course,
+> we expect that a number of participants will already have some experience using an IDE or comparable advanced code editor
+> (e.g. Vim, Emacs).
+> Therefore, you are welcome to use your editor of choice for the course
+> if you are confident that you can achieve similar functionality that is described for PyCharm:
 >
 > - Syntax highlighting, indentation, and autocompletion
 > - Recognition of virtual environments and setting the correct Python interpreter
@@ -411,9 +410,8 @@ limited.[^1]
 > - Integration with pytest and the ability to launch individual tests from the
 >   editor
 >
-> Also, you must accept the provision that we will only support the two IDEs
-> above. Regardless of your decision, we recommend that you still install one of
-> the editors above as a fallback.
+> Also, you must accept the provision that we will only support the two IDEs above.
+> Regardless of your decision, we recommend that you still install one of the editors above as a fallback.
 {: .callout}
 
 {% endif %}
@@ -533,5 +531,3 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 {% endif %}
 
 <hr/>
-
-
